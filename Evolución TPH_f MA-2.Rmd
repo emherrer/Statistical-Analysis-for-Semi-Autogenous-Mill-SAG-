@@ -15,7 +15,6 @@ text-align: justify}
 
 ```{r include=FALSE}
 #Configuración de opciones generales
-knitr::opts_chunk$set(echo=FALSE, error = FALSE, message=FALSE, warning=FALSE, comment = '', fig.align = 'center')
 ```
 
 ```{r include=FALSE}
