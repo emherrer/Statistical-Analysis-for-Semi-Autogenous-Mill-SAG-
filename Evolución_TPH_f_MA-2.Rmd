@@ -1,11 +1,15 @@
 ---
-title: "EVALUACION ESTADISTICA DE LA TASA DE PROCESAMIENTO Y DEMANDA DE POTENCIA EN MOLIENDA SAG"
+title: EVALUACION ESTADISTICA DE LA TASA DE PROCESAMIENTO Y DEMANDA DE POTENCIA EN
+  MOLIENDA SAG
 author: "Emmanuel Herrera Flores"
 date: "15 Noviembre del 2018"
 output:
+  pdf_document:
+    toc: true
+    highlight: zenburn
   html_document:
-    df_print: paged
-  word_document: default
+    toc: true
+    theme: united
 ---
 
 <style>
@@ -37,7 +41,7 @@ options(stringsAsFactors = FALSE, scipen = 999)
 ```{r include=FALSE, cache=TRUE}
 #Carga de Datos:
 types<-c("skip", "skip", "date", rep("numeric",8), rep("text",2))
-data_sag<-read_excel(path = "../Data_PI_cruda_CRD/Datos SA-2.xlsx",
+data_sag<-read_excel(path = "C:/Users/Emmanuel/Desktop/DD externo/Estadistica/Diplomado PUC/Proyecto Diplomado 2018/Datos SA-2.xlsx",
                       sheet = 3, col_names = TRUE, col_types = types, skip = 3)
 ```
 
