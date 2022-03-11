@@ -1,5 +1,3 @@
-# Validación Optimización SAG
+# Statistical Analysis for Semi-Autogenous Mill (SAG)
 
-
-Este repositorio trata sobre el análisis estadístico realizado tendiente a validar el aumento de la tasa de 
-procesamiento horaria de los molinos SAG's.
+This project deals with the statistical analysis carried out in order to validate optimizing actions to increase the throughput of SAG mills.  
